@@ -1,0 +1,487 @@
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img { margin:0; padding:0; }
+
+fieldset, img { border:none; }
+
+img{display: block;}
+address, caption, cite, code, dfn, th, var { font-style:normal; font-weight:normal; }
+ul, ol { list-style:none; } 
+body { color:#333; padding:5px 0; font:12px/20px "SimSun","微软雅黑","Arial Narrow",HELVETICA; background:#fff;/* overflow-y:scroll;*/ overflow-x:hidden;}
+
+a{ color:#666; text-decoration:none; }
+
+a:visited { color:#666; }
+
+a:hover, a:active, a:focus { color:#ff8400; text-decoration:underline; }
+.l{
+    float: left;
+}
+.r{
+    float: right;
+}
+html,body{
+    width:100%;
+    height:100%;
+    background: #eee;
+}
+.wrapper{
+    width:100%;
+    position: relative;
+}
+header{
+    width: 100%;
+    height: 1.5rem;
+    background: #fff;
+    position: fixed;
+    z-index: 1000;
+    border-bottom: 1px solid #ccc;
+    top: 0;
+    left: 0;
+}
+.back{
+    line-height: 1.5rem;
+    color: #ccc;
+    margin-left: 0.2rem;
+}
+.center{
+    text-align: center;
+    line-height: 1.5rem;
+    font-weight: bold;
+    width: 86%;
+}
+.share{
+    line-height: 1.5rem;
+    color: #ccc;
+    margin-right: 0.2rem;
+}
+.goods-img{
+    /*background: red;*/
+    width: 100%;
+    height: 12rem;
+    margin-top: 1.5rem;
+}
+.swiper-container{
+    width: 100%;
+    height: 12rem;
+    position: relative;
+}
+.swiper-slide{
+    height: 12rem;
+}
+.swiper-slide img{
+    width: 100%;
+}
+.pagecount{
+    position: absolute;
+    width: 2rem;
+    height: 1rem;
+    border: 1px solid #000;
+    background: #000;
+    border-radius: 10px;
+    right: 2rem;
+    opacity: .5;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1rem;
+    bottom: 2rem;
+    z-index: 2;
+}
+.title{
+    width: 100%;
+    background: #fff;
+}
+.title p{
+    width: 90%;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 18px;
+    /*margin-top: 10px;*/
+}
+.collect span{
+    font-size: 12px;
+    border-left: 1px solid #ccc;
+    width: 2rem;
+    text-align: center;
+    color: #ccc;
+}
+.collect{
+    height: 42px;
+    background: #fff;
+}
+.collect strong{
+    font-size: 16px;
+    color: #666;
+}
+.price{
+    background: #fff;
+}
+.price span{
+    font-size: 27px;
+    color: #F60570;
+    margin-left: 18px;
+}
+.price i{
+    font-style: normal;
+    color: #F60570;
+    font-size: 12px;
+}
+.price strong{
+    font-style: normal;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    text-align: center;
+    font-size: 12px;
+    margin-left: 18px;
+    background: #F60570;
+    color: #fff;
+}
+.showcondition{
+    background: #fff;
+    overflow: hidden;
+    height: 25px;
+    border-bottom: 1px solid #ccc;
+}
+.showcondition span.l{
+    font-weight: bold;
+    color: #666;
+    margin-left: 18px;
+}
+.showcondition i{
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: line-through;
+    color: #666;
+}
+.showcondition span.r{
+    margin-right: .5rem;
+        font-weight: bold;
+    color: #666;
+}
+.countdown{
+    background: #fff;
+    height: 40px;
+    line-height: 40px;
+}
+.countdown p{
+    font-size: 12px;
+    font-weight: bold;
+    color: #333;
+}
+.time{
+    color: #666;
+    font-weight: lighter;
+    margin-left: 18px;
+}
+.col{
+    color: #F60570;
+    font-size: 16px;
+    font-weight: bold;
+}
+.wechat{
+    background: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    overflow: hidden;
+        padding: 10px 0;
+}
+.wechat p{
+    width: 80%;
+    margin-left: 18px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #666;
+    float: left;
+}
+.chaticon{
+    color: green;
+    font-size: 20px;
+    font-weight: lighter;
+
+}
+.copybtn{
+    float: right;
+    display: inline-block;
+    width: 10%;
+    height: 20px;
+    border: 1px solid green;
+    border-radius: 2px;
+    color: green;
+    margin-top: .7rem;
+    margin-right: .5rem;
+    text-align: center;
+}
+.goodsimage{
+    background: #fff;
+    overflow: hidden;
+    margin-bottom: .6rem;
+}
+.goodsimage p{
+    margin-left: 1rem;
+    font-weight: bold;
+    margin-top: .6rem;
+    margin-bottom: 1rem;
+}
+.goodsimage div{
+    width: 100%;
+    height: 9.65rem;
+}
+.goodsimage div img{
+    width: 100%;
+    height: 9.65rem;
+
+}
+.titleinfo{
+    width: 100%;
+    height: 2rem;
+    line-height: 2rem;
+    background: #fff;
+    border-bottom: 1px solid #ccc;
+}
+.titleinfo p{
+    color: #333;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+.titleinfo p span{
+    display: inline-block;
+    width: .2rem;
+    height: .4rem;
+    margin-right: .2rem;
+    background: red;
+}
+.relinfo{
+    background: #fff;
+    padding: .5rem 0;
+    margin-bottom: 1rem;
+}
+.relinfo p{
+    color: #333;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 1rem;
+    line-height: 1.3rem;
+}
+.relinfo p .dic2{
+    margin-left: 1rem;
+}
+.relinfo p .dic3{
+    margin-left: 4rem;
+}
+.fourspeciale{
+    background: #fff;
+    margin-bottom: 1rem;
+    padding: .5rem 0;
+}
+.fourspeciale p{
+    /*margin-left: 1rem;*/
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #666;
+    overflow: hidden;
+}
+.fourspeciale p.choose{
+    font-size: 12px;
+    color:#E91555;
+}
+.fourspeciale p.choose span{
+    font-size: 12px;
+    margin-left: 1rem;
+    font-weight: lighter;
+}
+.fourspeciale p.choose span strong{
+    font-style: normal;
+    font-size: 30px;
+    font-weight: lighter;
+}
+.miaoqin{
+    background: #fff;
+    margin-bottom: 1rem;
+}
+.miaoqin .p1{
+    color: #333;
+    font-size: 12px;
+    font-weight: bold;
+    /*margin-left: 1rem;*/
+        height: 2rem;
+    line-height: 2rem;
+    border-bottom: 1px solid #ccc;
+}
+.miaoqin .p1 span{
+    display: inline-block;
+    width: .2rem;
+    height: .4rem;
+    margin-right: .2rem;
+    margin-left: 1rem;
+    background: red;
+}
+.command{
+    padding: .5rem 0;
+    width: 90%;
+    margin: 0 auto;
+    border-bottom: 1px dashed #ccc;
+}
+.command p{
+    width: 90%;
+    margin: 0 auto;
+    font-size: 12px;
+    font-weight: bold;
+    /*line-height: 2.5rem;*/
+}
+.command p span{
+    display: inline-block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: url(../img/touxiang.bmp) no-repeat;
+    background-size: 100% 100%; 
+}
+.more{
+    height: 2.5rem;
+    line-height: 2.5rem;
+}
+.more p{
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+.guesslike{
+    background: #fff;
+    overflow: hidden;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+}
+.guesslike .p1{
+    color: #333;
+    font-size: 12px;
+    font-weight: bold;
+    /*margin-left: 1rem;*/
+        height: 2rem;
+    line-height: 2rem;
+    border-bottom: 1px solid #ccc;
+}
+.guesslike .p1 span{
+    display: inline-block;
+    width: .2rem;
+    height: .4rem;
+    margin-right: .2rem;
+    margin-left: 1rem;
+    background: red;
+}
+.guessgoods{
+    /*background: red;*/
+    width: 7rem;
+    height: 8rem;
+    float: left;
+    margin-left: .7rem;
+    margin-top: .7rem;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+.goodsimg{
+    display: inline-block;
+    width: 6rem;
+    height: 4rem;
+    background: blue;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    /*border: 1px solid #ccc;*/
+}
+.img{
+    width: 6rem;
+    height: 4rem;
+}
+.guesstitle{
+    font-size: 12px;
+    line-height: .5rem;
+    height: 2rem;
+    line-height: 2rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.guessprice{
+    width: 90%;
+    margin: 0 auto;
+    border-top: 1px dashed #ccc;
+    text-align: left;
+}
+.curpr{
+    color: #EC2757;
+    font-size: 14px;
+}
+.oldpr{
+    color: #666;
+    text-decoration: line-through;
+    font-size: 12px;
+}
+.gotogwc{
+    height: 2rem;
+    background: #eee;
+    width: 100%;
+    line-height: 2rem;
+    padding: .2rem 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.gotogwc .icon{
+    display: inline-block;
+    width: 3rem;
+    height: 1.5rem;
+    font-size: 12px;
+    background: #fff;
+    margin-left: .6rem;
+    margin-top: .3rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background:#fff url(../img/gwc.bmp) no-repeat 21px 8px;
+    background-size: 20px 15px; 
+    position: relative;
+}
+.gotogwc .icon i{
+    display: none;
+    position: absolute;
+    width: .8rem;
+    height: .8rem;
+    text-align: center;
+    line-height: .8rem;
+    font-style: normal;
+    border-radius: 50%;
+    color: #fff;
+    background: red;
+    right: 4px;
+    top: 0;
+}
+.gotogwc .btn{
+    display: inline-block;
+    width: 11.5rem;
+    background: #F00736;
+    color: #fff;
+    height: 1.5rem;
+    text-align: center;
+    line-height: 1.5rem;
+    margin-top: .3rem;
+    margin-left: .5rem;
+    border: 1px solid #F00736;
+    border-radius: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

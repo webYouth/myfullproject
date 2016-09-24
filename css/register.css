@@ -1,0 +1,80 @@
+body,html{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	background: #f3f4f5;
+}
+/*===================================#rigister_header===================================*/
+#rigister_header{
+	width: 100%;
+	height: 2.5rem;
+	background: url(../img/rigister-1.jpg) no-repeat;
+	background-size: 100% 100%;
+	border-bottom: 1px solid #ccc;
+}
+#rigister_header a{
+	display: block;
+	height: 2.32rem;
+	width: 2.32rem;
+	background: red;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+/*=====================================#rigister-form===================================*/
+#rigister-form{
+	width: 100%;
+	height: 6rem;
+}
+#rigister-form div{
+	width: 95.5%;
+	height: 2.4rem;
+	padding-left: 4.5%;
+	line-height: 2.4rem;
+	background: #fff;
+}
+#rigister-form .up{
+	background: #f3f4f5;
+	color: #aaa;
+}
+#rigister-form .down span{
+	margin-right: 7.3%;
+}
+#rigister-form .down input{
+	height: 100%;
+	width: 75%;
+}
+/*================================#rigister_btn===================================*/
+#rigister-btn{
+	width: 88%;
+	height: 2.2rem;
+	background: #e0e0e1;
+	margin: 0 6%;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 2.2rem;
+	color: #999;
+}
+/*================================zhuce-rig===========================*/
+#rigister-rig{
+	width: 88%;
+	margin: 0 6%;
+	height: 5.95rem;
+	line-height:2rem ;
+	text-align: center;
+	margin-top: 5.3%;
+}
+#rigister-rig .rig{
+	height: 1rem;
+	border: 1px solid #ff3451;
+	color: #ff3451;
+	display: block;
+	margin-top: .3rem;
+	line-height: 1rem;
+	padding: .1rem .62rem;
+	border-radius: 5px;
+}
+#rigister-rig .rig hover{
+	text-decoration: none;
+	
+}
+

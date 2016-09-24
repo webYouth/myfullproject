@@ -1,0 +1,120 @@
+body,h1,h2,h3,h4,h5,p,dl,dd,ul,ol,form,input,textarea,th,td,select { margin:0; padding:0; }
+em { font-style:normal; }
+ul,ol,dl{list-style:none;}
+img { border:none; vertical-align:top; }
+table { border-collapse:collapse; }
+input,textarea { outline:none; border:none;}
+textarea { resize:none; overflow:auto; }
+body { font-size:12px; font-family:"微软雅黑" "Time New Roman"; }
+a { text-decoration:none;color:#5d5d5d; }
+a:hover{text-decoration:underline;color:#f60;}
+html,body{width:100%; height:100%;}
+
+#header{width:100%; height:1.8rem; background:red; text-align:center;
+font-size:0.8rem; color: #000; line-height: 1.8rem;  
+background: url(../img/z1.jpg) no-repeat 95% center ;
+background-size:1.2rem 1rem; position: relative;
+border-bottom:1px solid #ccc; font-weight: bold;overflow: hidden; }
+#header img {width:0.8rem; height:1.0rem;margin-top:0.35rem ;
+margin-left:1rem; position:absolute; left:0.5rem; top:center;}
+#gou{width: 2rem; height:2rem; background:cornflowerblue; position:absolute; right:0; top:0;
+ opacity: 0;}
+
+
+/*======================最大的盒子=======================*/
+#markett {width:100%;  
+height:24.5rem;  
+position:relative; 
+overflow:auto;
+display: -webkit-box;
+-webkit-box-orient: vertical;}
+
+
+#box{ width:100%;
+position:absolute;
+left:0;top:0;
+-webkit-box-flex: 1; }
+
+
+#box img{width:100%;height:18rem; 
+}
+span{margin:0.3rem;}
+.s1{font-size:0.7rem ; width:3rem; height: 1.5rem;}
+.s2{font-size:0.5rem; text-decoration: line-through; color:#ccc ;}
+.s3{width:3rem; height:1rem; padding:0.1rem ; border:1px solid #FF2D4B ; 
+border-radius:10px ; color: #FF2D4B; line-height: 1rem;}
+#box .img{width:100%; height: 24rem;}
+
+
+
+#bottom{width:100%; height:2rem; background:white; position:fixed; 
+left:0; bottom:0;line-height:2rem; }
+.pics{position: relative;}
+#bottom img:nth-child(1) {
+	width:1.5rem;
+ 	height:1.3rem;
+ 	position: absolute;
+ 	left: 4.6rem;
+ 	top: 0.3rem;
+}
+#bottom img:nth-child(2) {
+	width:1.5rem;
+ 	height:1.3rem;
+ 	position: absolute;
+ 	left: 9.5rem;
+ 	top: 0.3rem;
+}
+
+
+
+
+
+/*==============刷新===============*/
+.boom{
+	width:100%;
+	height:2.5rem;
+	text-align: center;
+	line-height:2rem;
+	font-size:0.35rem;
+	z-index: -2;
+	position:fixed;
+	top:1.5rem;
+	left:0;
+	
+	
+}
+.boom ul{
+	height:1rem;
+	width:3rem;
+	margin:0 auto;
+}
+.boom ul li{
+	float:left;
+	width:0.3rem;
+	height:0.3rem;
+	margin-top:0.5rem;
+	margin-left:0.2rem;
+	border-radius:50%;
+	background:#ff2d4b;
+	
+}
+.boom ul li:nth-of-type(1){
+	animation: beng 0.5s 0.1s linear infinite;
+}
+#cov .boom ul li:nth-of-type(2){
+	animation: beng 0.5s 0.3s linear infinite;
+}
+.boom ul li:nth-of-type(3){
+	animation: beng 0.5s 0.5s linear infinite;
+}
+@keyframes beng{
+	0%{transform: translateY(0);}
+	100%{transform: translateY(-0.2rem);}
+}
+.boom p{
+	margin-left:36%;
+	height:1rem;
+	line-height:1rem;
+	text-align:left;
+}
+

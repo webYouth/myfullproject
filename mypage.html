@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/comon.css"/>
+		<link rel="stylesheet" type="text/css" href="css/mypage.css"/>
+		<script src="js/iscroll.js"></script>
+		<script src="js/rem.js"></script>
+		<script src="js/zepto.js"></script>
+	</head>
+	<body>
+		<header>
+			<a href="car.html" class="car"></a>
+			<a href="html/login.html" class="dl"></a>
+			<a href="html/zhuce.html" class="zc"></a>
+			<div class="name"></div>
+		</header>
+		<div id="content"></div>
+		<footer>
+			<ul>
+				<li class="aa"><a href="index.html"><img src="img/s.jpg"/>
+					<p>首页</p></a>
+				</li>
+				<li class="aa"><a href="hot.html"><img src="img/r.jpg" />
+					<p>热卖</p></a>
+				</li>
+				<li class="aa"><a href="zt.html"><img src="img/z.jpg" />
+					<p>专题</p></a>
+				</li>
+				<li class="aa"><a href="mypage.html"><img src="img/m.jpg"/>
+					<p>我的小喵</p></a>
+				</li>
+			</ul>
+		</footer>
+		<script>
+            if(localStorage.getItem('user')){
+            	$(".name").css('display','block')
+                $(".name").html(localStorage.getItem('user'))
+            }else{
+//          	$(".name").css('display,'block')
+            }
+        
+		</script>
+	</body>
+</html>

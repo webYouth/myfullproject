@@ -1,0 +1,135 @@
+body,html{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+#nav-all{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.l{
+	float: left;
+}
+.r{
+	float: right;
+}
+/*========================up=============================*/
+#right_nav{
+	width: 20%;
+	height: 100%;
+	background: black;
+	position:fixed ;
+	right: 0;
+	top: 0;
+	padding-top: 10%;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+.right_hide{
+	animation:right_hide 1s 1s;
+}
+@-webkit-keyframes right_hide{
+	from{opacity: 0;}
+	to{opacity: .6;}
+}
+/*========================#left_nav=============================*/
+#left_nav{
+	width: 80%;
+	height: 100%;
+	background: #fff;
+	position:fixed ;
+	left: 0;
+	top: 0;
+	padding-top: 10%;
+}
+.left_hide{
+	animation:left_hide 1s both ;
+}
+@-webkit-keyframes left_hide{
+	from{left: 0;}
+	to{left: -100%;}
+}
+/*========================up=============================*/
+#left_nav .up{
+	width: 87%;
+	height: 2.5rem;
+	line-height: 2.5rem;
+	padding-left: 13%;
+}
+#left_nav .up dt,dd{
+	float: left;
+	height:2.5rem ;
+}
+#left_nav .up dt{
+	width:2.5rem ;
+	height:2.5rem ;
+}
+#left_nav .up dt img{
+	display: block;
+	width:2.5rem ;
+	height:2.5rem ;
+}
+#left_nav .up  a{
+	color: #151515;
+	font-size: 0.57rem;
+	font-weight: bold;
+}
+#left_nav .up dd{
+	width: 50%;
+	padding-left: 6.8%;
+}
+#left_nav .up dd span{
+	padding:0 3.4%;
+}
+/*============================down==============================*/
+#left_nav .down{
+	width: 86%;
+	height:12.7rem;
+	margin-top: 1.22rem;
+	
+	padding:0 7%;
+	overflow: hidden;
+}
+#left_nav .down li{
+	width:100%;
+	padding-bottom: .6rem;
+	line-height: 1.5rem;
+	height:1.5rem;
+	
+	
+}
+#left_nav .down li dt {
+	width: 13%;
+	height: 1.5rem;
+	margin-right: 0.6rem;
+}
+#left_nav dl{
+	width: 100%;
+}
+#left_nav .down li dd{
+	width: 80%;
+	height: 1.5rem;
+}
+#left_nav .down li dt img{
+	width: 1.5rem;
+	height: 1.5rem;
+	
+}
+#left_nav .down h3{
+	font-size: .5rem;
+	margin-right: .4rem;
+	font-weight: 100;
+}
+#left_nav .down .rrr{
+	margin-right: 1.6rem;
+}
+#left_nav .down a,span{
+	font-size: .4rem;
+	color: #a6a6a6;
+}
+.down .last{
+	
+}

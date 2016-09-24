@@ -1,0 +1,382 @@
+/* reset */
+body,h1,h2,h3,h4,h5,p,dl,dd,ul,ol,form,input,textarea,th,td,select { margin:0; padding:0; }
+em { font-style:normal; }
+ul,ol,dl{list-style:none;}
+img { border:none; vertical-align:top; }
+table { border-collapse:collapse; }
+input,textarea { outline:none; }
+textarea { resize:none; overflow:auto; }
+body { font-size:12px; font-family:"微软雅黑" "Time New Roman"; }
+a { text-decoration:none;color:#5d5d5d; }
+a:hover{text-decoration:underline;color:#f60;}
+
+
+
+html,body{
+	height: 100%;
+	width: 100%;
+	font-family: "微软雅黑";
+}
+#box{
+	width: 100%;
+	height: 100%;
+	
+}
+.hh{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 2rem;
+	line-height: 2rem;
+	text-align: center;
+	background: #fff;
+	z-index: 1000;
+}
+header{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 2rem;
+	line-height: 2rem;
+	z-index: 100;
+	
+}
+
+.head{
+	width: 100%;
+	height: 2rem;
+	line-height: 2rem;
+	border-bottom: 1px solid #d6d6d6;
+	text-align: center;
+	position: relative;
+	background: #fff;
+}
+.back{
+	display: inline-block;
+	float: left;
+	width: 0.35rem;
+	height: 0.75rem;
+	background: url(../img/icon.jpg);
+	background-size: 100% 100%;
+	margin-top: 0.57rem;
+	margin-left: 0.75rem;
+	
+}
+.title{
+	font-size: 1rem;
+	/*font-weight: bold;*/
+	position: absolute;
+	left:50%;
+	margin-left: -1.5rem;	
+
+}
+.edi{
+	float: right;
+	font-size: 0.6rem;
+	margin-right: 20px;
+	
+}
+.bar{
+	width: 100%;
+	height: 0.5rem;
+	background: #f8f8f8;
+	border-top: 1px solid #f8f8f8;
+	z-index: 100000;
+	margin-top: 2rem;
+}
+.icon{
+	width: 96%;
+	height: 2rem;
+	line-height: 2rem;
+	padding: 0 0.375rem;
+	border-bottom: 1px solid #e2e2e2;
+	position: relative;
+	/*margin-bottom: 1rem;*/	
+	background: #fff;
+}
+.icon .cat{
+	width: 1.2rem;	
+	height: 1.2rem;
+	background: url(../img/cat.jpg);
+	background-size: 100% 100%;
+	display: inline-block;
+	position: absolute;
+	margin: 0.4rem 0;
+}
+.icon .car{
+	margin-left: 1.5rem;
+	font-size: 0.625rem;
+	/*font-weight: bold;*/
+}
+.icon .num{
+	color: #e2e2e2;
+	font-size: 0.5rem;
+	float: right;
+	/*font-weight: bold;*/
+}
+.name{
+	height: 1.5rem;
+	width: 100%;
+	line-height: 1.5rem;
+	position: relative;
+	background: #fff;
+}
+.select{
+	width: 0.86rem;
+	height:0.86rem;
+	line-height:0.86rem;
+	background: #fff;
+	display:inline-block;
+	border-radius: 50%;
+	float: left;
+	margin:0.3rem ;
+	border:1px solid #A0A0A0;
+	text-align: center;
+	color: #FFFFFF;
+	font-size: 0.7rem;
+}
+.select_red{
+	background: #ff2d4b;
+	border:0;
+}
+.name .select{
+	position: absolute;
+	left: 0.4rem;
+	top: 0rem;
+}
+.name .txt{
+	/*float: left;*/
+	position: absolute;
+	left: 2.2rem;
+}
+.name .pic{
+	background: url(../img/pic.jpg);
+	background-size: 100% 100%;
+	display: inline-block;
+	width: 0.6rem;
+	height: 0.5rem;
+	margin-top:0.5rem ;
+	margin-right: 0.2rem;
+	
+}
+#wrap{
+	/*position: relative;*/
+}
+.wrapper{
+	height: 100%;
+	width:96%;
+	/*background: #f8f8f8;*/
+	margin: 0 0.35rem;
+	position: absolute;
+}
+.addwrap{
+	background: url(../img/bk_car.jpg)no-repeat;
+	background-size: 100% 100%;
+}
+.stores{
+	width: 100%;
+	height: 5.275rem;
+	border-top: 0.025rem solid #e2e2e2;
+	border-bottom: 1px solid #e2e2e2;
+	position: relative;
+	margin-bottom: 0.25rem;
+	background: #fff;
+	z-index: 1;
+}
+.stores .select{
+	position: absolute;
+	left: 0;
+	top: 2.0rem;	
+}
+.stores dt{
+	position: absolute;
+	left: 2rem;
+	top:0.75rem;
+	width:3.75rem;
+	height:3.75rem;
+}
+.stores dt img{
+	width:3.7rem;
+	height:3.7rem;
+	border: 1px solid #e2e2e2;
+}
+.stores .good_title{
+	width: 6.5rem;
+	height: 1.5rem;
+	position:absolute;
+	left: 6.25rem;
+	top: 0.75rem;
+
+}
+.stores .prices{
+	width: 1.425rem;
+	height: 1.25rem;
+	position: absolute;
+	right: 0.66rem;
+	top: 0.75rem;
+}
+.stores .pp{
+	color: #a0a0a0;
+	text-decoration: line-through;
+}
+
+#price{
+	font-weight: bold;
+	font-size: 0.5rem;
+}
+.stores .teast{
+	width: 4rem;
+	height: 1rem;
+	color: #A0A0A0;
+	position: absolute;
+	left: 6.25rem;
+	top: 2.5rem;
+}
+.stores .number{
+	height:1.1rem ;
+	width: 4rem;
+	border: 1px solid #A0A0A0;
+	border-radius: 0.1rem;
+	position: absolute;
+	left: 6.25rem;
+	top: 3.5rem;
+}
+.number .decrease{
+	height: 1.1rem;
+	width: 1.2rem;
+	display: inline-block;
+	float: left;
+	background: url(../img/jian.jpg);
+	background-size: 100% 100%;
+	border-right: 1px solid #A0A0A0;
+}
+.number .nums{
+	width:1.5rem ;
+	height: 1.1rem;
+	border: 0;
+	text-align: center;
+	float: left;
+	
+}
+.number .crease{
+	height: 1.1rem;
+	width: 1.2rem;
+	display: inline-block;
+	float: left;
+	background: url(../img/jia.jpg);
+	background-size: 100% 100%;
+	border-left: 1px solid #A0A0A0;
+	
+}
+
+
+#title{
+	width: 100%;
+	height: 2.575rem;
+	background: #fff;
+	position: fixed;
+	bottom: 0;
+	z-index: 100;
+	
+}
+.tit{position: relative;
+	width: 100%;
+	height: 2.575rem;
+	/*background: #999;*/
+}
+.tithide{
+	/*width: 39%;
+	height: 2.575rem;
+	background: #fff;*/
+	position:absolute ;
+	left: 30%;
+	top: 0;
+	display: block;
+	
+
+}
+#title .select{
+	position: absolute;
+	left: 0.3rem;
+	top: 0.5rem;
+}
+#title .all{
+	position: absolute;
+	left: 2rem;
+	top: 0.8rem;
+	font-size: 0.6rem;
+}
+#title .all{
+	position: absolute;
+	left: 2rem;
+	top: 0.8rem;
+	font-size: 0.6rem;
+}
+#title .all{
+	position: absolute;
+	left: 2rem;
+	top: 0.8rem;
+	font-size: 0.6rem;
+}
+#title .heji{
+	position: absolute;
+	left: 5.5rem;
+	top: 0.6rem;
+	font-size: 0.8rem;
+}
+.jiege{
+	color: #ff3451;
+}
+.jieshi{
+	font-size: 0.6rem;
+	width: 3rem;
+	color: #a0a0a0;
+	position: absolute;
+	left: 2.5rem;
+	top: 0.93rem;
+}
+.btn{
+	width: 3.9rem;
+	height: 1.7rem;
+	background: #ff2d4b;
+	text-align: center;
+	line-height: 1.7rem;
+	font-size:0.75rem ;
+	position: absolute;
+	right: 1rem;
+	top: 0.45rem;
+	border-radius: 0.36rem;
+	color: #fff;
+}
+
+.delbtn{
+	width: 3.9rem;
+	height: 1.7rem;
+	background: #ff2d4b;
+	text-align: center;
+	line-height: 1.7rem;
+	font-size:0.75rem ;
+	position: absolute;
+	right: 1rem;
+	top: 0.45rem;
+	border-radius: 0.36rem;
+	color: #fff;
+	display: none;
+	
+}
+.tip{
+	width: 6rem;
+	height: 1.5rem;
+	background: rgba(0,0,0,0.5);
+	position: fixed;
+	left: 35%;
+	top: 45%;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 1.5rem;
+	border-radius: 0.2rem;
+	z-index: 100;
+	display: none;
+}
